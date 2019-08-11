@@ -1,0 +1,15 @@
+.container3{
+    color: white;
+    background-color: #0c254d;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+}
+
+.sectionTitle{
+    font-size: 4rem;
+}
+
+.info{
+    font-size: 2.5rem;
+    padding: 10px;
+}
