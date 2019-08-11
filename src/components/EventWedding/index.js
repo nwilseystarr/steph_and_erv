@@ -18,7 +18,7 @@ class EventWedding extends Component {
                         <div className="info">
                             Feb 29, 2020
                     <br />
-                            5:00 PM
+                            6:00 PM
                     <br />
                             Chicago, IL
                     <br />
