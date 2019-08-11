@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navbar from '../src/components/Navbar';
+import Navbar from './components/Navbar';
 import './App.css';
 import Carousel from './components/Carousel';
 import Title from './components/Title';
