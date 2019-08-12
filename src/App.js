@@ -8,6 +8,7 @@ import WeddingPartyWrapper from './components/WeddingPartyWrapper';
 import WeddingParty from './components/WeddingParty';
 import stephPeople from './stephPeople';
 import ervPeople from './ervPeople';
+import logo from './logo.png';
 
 class App extends Component {
   constructor(props) {
@@ -21,6 +22,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
+        <img className="marginLogo" src={logo} alt="Logo" />
         <Carousel />
         <Title />
         <EventWedding />

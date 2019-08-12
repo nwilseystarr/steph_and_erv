@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-scroll';
 import './style.css';
-import logo from './logo.png';
+import logo from '../../logo.png';
 
 export class Navbar extends Component {
     render() {

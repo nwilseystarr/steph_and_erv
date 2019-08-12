@@ -19,10 +19,23 @@
   color: white;
 }
 
+.marginLogo{
+  margin-top: 7%;
+}
+
 .App-link {
   color: #61dafb;
 }
+
 /* 
 .weddingParty{
   text-align: center;
+} */
+
+/* @font-face {
+  font-family: 'northwellregular';
+  src: url('../.fonts/northwell-webfont.woff2') format('woff2'),
+       url('../.fonts/northwell-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 } */
