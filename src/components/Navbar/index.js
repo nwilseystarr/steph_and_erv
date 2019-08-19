@@ -29,11 +29,11 @@ export class Navbar extends Component {
                                         Details
                                     </Link>
                                 </li>
-                                {/* <li className="nav-item">
+                                <li className="nav-item">
                                     <Link
                                         className="nav-link mr-3"
                                         activeClass="active-link"
-                                        to="demo"
+                                        to="registry"
                                         smooth={true}
                                         spy={true}
                                         offset={-80}
@@ -41,7 +41,7 @@ export class Navbar extends Component {
                                     >
                                         Registry
                                     </Link>
-                                </li> */}
+                                </li>
                                 <li className="nav-item">
                                     <Link
                                         className="nav-link mr-3"

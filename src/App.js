@@ -4,6 +4,7 @@ import './App.css';
 import Carousel from './components/Carousel';
 import Title from './components/Title';
 import EventWedding from './components/EventWedding';
+import Registry from './components/Registry';
 import WeddingPartyWrapper from './components/WeddingPartyWrapper';
 import WeddingParty from './components/WeddingParty';
 import stephPeople from './stephPeople';
@@ -25,7 +26,12 @@ class App extends Component {
         <img className="marginLogo" src={logo} alt="Logo" />
         <Carousel />
         <Title />
-        <EventWedding />
+        <EventWedding> 
+          <div className="details"> </div>
+        </EventWedding>
+        <Registry>
+        <div className="registry"> </div>
+        </Registry>  
         <WeddingPartyWrapper>
           <div className="row justify-content-md-center weddingParty">
             <div className="col">
