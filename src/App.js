@@ -26,12 +26,8 @@ class App extends Component {
         <img className="marginLogo" src={logo} alt="Logo" />
         <Carousel />
         <Title />
-        <EventWedding> 
-          <div className="details"> </div>
-        </EventWedding>
-        <Registry>
-        <div className="registry"> </div>
-        </Registry>  
+        <div className="details"> <EventWedding />  </div>
+        <div className="registry"> <Registry /></div>
         <WeddingPartyWrapper>
           <div className="row justify-content-md-center weddingParty">
             <div className="col">

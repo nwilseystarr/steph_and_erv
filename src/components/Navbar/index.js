@@ -14,9 +14,6 @@ export class Navbar extends Component {
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                             <ul className="navbar-nav ml-2">
                                 <li className="nav-item">
-                                    <a href="/" className="nav-link mr-3">Home</a>
-                                </li>
-                                <li className="nav-item">
                                     <Link
                                         className="nav-link mr-3"
                                         activeClass="active-link"
